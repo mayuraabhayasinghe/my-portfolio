@@ -40,7 +40,7 @@ const Projects = () => {
 
   return (
     <motion.div
-      className="min-h-screen py-20 px-6"
+      className="min-h-screen py-20 px-1"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.6 }}

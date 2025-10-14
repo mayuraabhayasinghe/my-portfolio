@@ -16,10 +16,10 @@ const Contact = () => {
       className="pt-14 pb-10 px-6 max-w-5xl mx-auto bg-slate-900/60 backdrop-blur-sm mt-10"
     >
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-3xl text-center font-bold text-white mb-2">
+        <h2 className="text-2xl lg:text-3xl text-center font-bold text-white mb-2">
           {ContactSectionData.title}
         </h2>
-        <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
+        <p className="text-gray-400 text-sm md:text-lg text-center mb-12 max-w-2xl mx-auto">
           {ContactSectionData.subtitle}
         </p>
 
@@ -30,7 +30,7 @@ const Contact = () => {
           </div>
 
           {/* Contact Info */}
-          <div className="flex flex-col justify-center space-y-6">
+          <div className="flex flex-col text-sm lg:text-base justify-center space-y-6">
             <div className="flex items-center space-x-4">
               <div className="bg-white/10 p-3 rounded-full">
                 <FiMail className="text-amber-300 text-xl" />

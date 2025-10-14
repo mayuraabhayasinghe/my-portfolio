@@ -128,7 +128,7 @@ const Home = () => {
       <Toaster position="top-center" reverseOrder={false} />
 
       {/* Hero Section */}
-      <section className="relative min-h-[92vh] sm:h-screen flex flex-col justify-center items-center px-4 sm:px-6 lg:px-0 pt-16 sm:pt-0">
+      <section className="relative min-h-[92vh] sm:h-screen flex flex-col justify-center items-center px-2 lg:px-0 pt-16 sm:pt-0 mb-10 md:mb-0">
         <motion.div
           initial="hidden"
           animate="visible"
@@ -147,7 +147,7 @@ const Home = () => {
               Hello, I'm
             </motion.h2>
             <motion.h1
-              className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold bg-gradient-to-r from-white to-gray-500 text-transparent bg-clip-text leading-tight py-2 flex flex-wrap justify-center md:justify-start"
+              className="text-2xl md:text-4xl xl:text-6xl font-bold bg-gradient-to-r from-white to-gray-500 text-transparent bg-clip-text leading-tight py-2 flex flex-wrap justify-center md:justify-start"
               initial="hidden"
               animate="visible"
             >
@@ -168,7 +168,7 @@ const Home = () => {
             </motion.h1>
             <motion.p
               variants={fadeInUp}
-              className="text-gray-400 text-base sm:text-lg md:text-xl max-w-xl leading-relaxed"
+              className="text-gray-400 text-sm md:text-lg lg:text-xl max-w-xl leading-relaxed"
             >
               {HomeSectionData.bio}
             </motion.p>
@@ -181,7 +181,7 @@ const Home = () => {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => navigate("/projects")}
-                className="text-sm sm:text-base px-4 sm:px-6 py-2 sm:py-3 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white rounded-full transition duration-300"
+                className="text-sm md:text-base px-4 sm:px-6 py-2 sm:py-3 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white rounded-full transition duration-300"
               >
                 View My Work
               </motion.button>
@@ -191,7 +191,7 @@ const Home = () => {
                 href={HomeSectionData.resumePath}
                 download="Mayura_Abhayasinghe_CV.pdf"
                 onClick={handleDownloadCV}
-                className={`text-sm sm:text-base px-4 sm:px-6 py-2 sm:py-3 bg-amber-300 hover:bg-amber-400 border hover:border-white text-black rounded-full transition duration-300 inline-flex items-center justify-center gap-2 ${
+                className={`text-sm md:text-base px-4 sm:px-6 py-2 sm:py-3 bg-amber-300 hover:bg-amber-400 border hover:border-white text-black rounded-full transition duration-300 inline-flex items-center justify-center gap-2 ${
                   isDownloading ? "opacity-80 pointer-events-none" : ""
                 }`}
               >
@@ -248,7 +248,7 @@ const Home = () => {
               transition={{ type: "spring", stiffness: 200 }}
             >
               {/* Profile Image with Glow Effect */}
-              <div className="w-44 h-44 sm:w-60 sm:h-60 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-white/10 relative z-10">
+              <div className="w-60 h-60 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-white/10 relative z-10">
                 <img
                   src={profileImg}
                   alt="Mayura Abhayasinghe"

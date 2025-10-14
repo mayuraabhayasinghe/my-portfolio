@@ -3,9 +3,9 @@ import { AboutSectionData } from "../../data";
 
 const About = () => {
   return (
-    <div id="about" className="pt-24 pb-16 px-6">
+    <div id="about" className="pt-24 pb-16 px-2">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-3xl text-center mb-10 font-bold text-white">
+        <h2 className="text-2xl lg:text-3xl text-center mb-10 font-bold text-white">
           About Me
         </h2>
 
@@ -14,7 +14,7 @@ const About = () => {
             {AboutSectionData.description.map((paragraph, index) => (
               <p
                 key={index}
-                className="text-gray-400 text-center leading-relaxed"
+                className="text-gray-400 text-sm md:text-lg text-center leading-relaxed"
               >
                 {paragraph}
               </p>
@@ -22,7 +22,7 @@ const About = () => {
           </div>
 
           <div className="space-y-6 max-w-3xl">
-            <div className="flex justify-center flex-wrap gap-3">
+            <div className="flex text-sm lg:text-base justify-center flex-wrap gap-3">
               {AboutSectionData.skills.map((skill, index) => (
                 <span
                   key={index}

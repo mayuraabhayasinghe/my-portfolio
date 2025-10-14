@@ -103,7 +103,7 @@ const ContactForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-4">
+    <form onSubmit={handleSubmit} className="space-y-4 text-sm lg:text-base">
       <div>
         <label htmlFor="name" className="block text-gray-400 mb-2">
           Your Name
