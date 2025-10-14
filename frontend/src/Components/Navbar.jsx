@@ -44,7 +44,7 @@ const Navbar = () => {
         <div className="text-md font-bold tracking-wide">
           <button onClick={() => handleNavigation("/")}>
             <h3 className=" from-gray-400 via-gray-200 to-gray-400 bg-gradient-to-r bg-clip-text text-transparent">
-              PORTFOLIO
+              MAYURA ABHAYASINGHE
             </h3>
           </button>
         </div>

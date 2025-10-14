@@ -1,11 +1,11 @@
 export const HomeSectionData = {
-  bio: "I'm a passionate developer focused on creating beautiful, functional, and user-centered digital experiences.",
+  bio: "A passionate developer focused on developing creative, functional, innovative and user-centered digital experiences.",
   resumePath: "/files/mayura-abhayasinghe-cv.pdf", // Path to CV file in the public folder
 };
 
 export const AboutSectionData = {
   description: [
-    "I'm an IT enthusiast with a passion for creating innovative solutions. My journey in technology has equipped me with a diverse skill set spanning software development, system architecture, and user experience design.",
+    "I am an IT undergraduate at the Sabaragamuwa University of Sri Lanka, developing a strong foundation in computing and information systems. My journey in technology has equipped me with a diverse skill set spanning software development, web technologies, problem solving, and user experience design.",
     "I thrive on challenges and constantly seek to expand my knowledge and skills in the ever-evolving tech landscape.",
   ],
   skills: [
@@ -13,10 +13,10 @@ export const AboutSectionData = {
     "React",
     "Node.js",
     "Tailwind CSS",
-    "UI/UX Design",
+    "Supabase",
     "Responsive Design",
+    "Express",
     "Git",
-    "API Integration",
   ],
 };
 
