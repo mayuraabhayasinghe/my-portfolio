@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import profileImg from "../assets/images/profile-image.png";
+import profileImg from "../assets/images/profile-image.jpg";
 import {
   FiGithub,
   FiLinkedin,
@@ -128,12 +128,12 @@ const Home = () => {
       <Toaster position="top-center" reverseOrder={false} />
 
       {/* Hero Section */}
-      <section className="relative min-h-[92vh] sm:h-screen flex flex-col justify-center items-center px-2 lg:px-0 pt-16 sm:pt-0 mb-10 md:mb-0">
+      <section className="relative min-h-[92vh] sm:h-screen flex flex-col justify-center items-center px-2 pt-16 md:pt-0 mb-10 md:mb-0">
         <motion.div
           initial="hidden"
           animate="visible"
           variants={staggerContainer}
-          className="max-w-5xl w-full mx-auto flex flex-col md:flex-row gap-4 justify-center items-center"
+          className="max-w-6xl w-full mx-auto flex flex-col md:flex-row gap-3 md:gap-5 justify-center items-center"
         >
           {/* Left Content - Text */}
           <motion.div
@@ -248,11 +248,11 @@ const Home = () => {
               transition={{ type: "spring", stiffness: 200 }}
             >
               {/* Profile Image with Glow Effect */}
-              <div className="w-60 h-60 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-white/10 relative z-10">
+              <div className="w-60 h-60 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden relative z-10">
                 <img
                   src={profileImg}
                   alt="Mayura Abhayasinghe"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover scale-110 transform"
                 />
               </div>
               {/* Glow Effect */}
@@ -270,7 +270,7 @@ const Home = () => {
               ></motion.div>
 
               {/* Decorative Elements */}
-              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full border-2 border-dashed border-white/20 rounded-full animate-[spin_20s_linear_infinite] z-0"></div>
+              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full scale-110 border-2 border-dashed border-white/20 rounded-full animate-[spin_20s_linear_infinite] z-0"></div>
             </motion.div>
           </motion.div>
         </motion.div>
