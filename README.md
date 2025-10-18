@@ -16,6 +16,7 @@ Tech stack
 - Hosting / deployment: Vercel
 
 Contact
+- Live : https://my-portfolio-phi-two-65.vercel.app/
 - GitHub: https://github.com/mayuraabhayasinghe
 - Email: abhayasinghemayura@gmail.com
 - LinkedIn: https://www.linkedin.com/in/mayura-abhayasinghe-aa7813255
