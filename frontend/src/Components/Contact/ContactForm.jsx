@@ -148,7 +148,7 @@ const ContactForm = () => {
           onChange={handleChange}
           required
           className="w-full px-4 py-2 bg-white/5 border border-gray-700 rounded-lg focus:outline-none focus:border-amber-300 text-white"
-          placeholder="Project Inquiry"
+          placeholder="Subject of your email"
         />
       </div>
 
